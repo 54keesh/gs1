@@ -22,6 +22,12 @@ class User extends Authenticatable
         'password',
     ];
 
+    protected const ROLES = [
+        'admin',
+        'transporter',
+        'superadmin',
+    ];
+    
     /**
      * The attributes that should be hidden for serialization.
      *
